@@ -1,8 +1,6 @@
-import 'reflect-metadata'
+import 'reflect-metadata';
 import express from 'express';
 import createConnection from './database';
-// Como tenho arquivo index ele sabe e não precisa informar
-import "./database";
 import { router } from './routes';
 
 createConnection()
